@@ -1,0 +1,14 @@
+{
+  "project_name": "particle_life",
+  "total_prompts": 1,
+  "timestamp": "20260129_035212",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_002853.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/particle_life/generated_prompts/generated_prompt_20260129_002853.md",
+      "summary": "构建了一个全屏交互式粒子生命模拟器，通过颜色间的吸引与排斥规则生成复杂的动态有机结构。集成悬浮控制面板，支持实时调节物理参数、随机化规则矩阵以及控制视觉拖尾效果。",
+      "prompt_length": 2433,
+      "timestamp": "2026-01-29 03:52:12"
+    }
+  ]
+}

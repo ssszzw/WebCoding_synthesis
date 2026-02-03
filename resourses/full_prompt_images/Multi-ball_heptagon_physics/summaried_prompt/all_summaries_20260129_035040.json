@@ -1,0 +1,14 @@
+{
+  "project_name": "Multi-ball_heptagon_physics",
+  "total_prompts": 1,
+  "timestamp": "20260129_035040",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260128_232234.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/Multi-ball_heptagon_physics/generated_prompts/generated_prompt_20260128_232234.md",
+      "summary": "实现了一个基于Web的物理模拟系统，展示20个小球在旋转七边形内的运动。核心功能包括重力模拟、小球间的弹性碰撞，以及处理旋转边界对小球的精确动量传递。",
+      "prompt_length": 2242,
+      "timestamp": "2026-01-29 03:50:40"
+    }
+  ]
+}

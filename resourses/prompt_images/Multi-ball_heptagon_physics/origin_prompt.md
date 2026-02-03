@@ -1,0 +1,1 @@
+Write html, css, and javascript to display 20 balls bouncing inside a spinning heptagon. each ball should have a unique color, a number label, gravity, and collision detection with the walls. all code in one file.

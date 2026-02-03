@@ -1,0 +1,14 @@
+{
+  "project_name": "太空射击游戏",
+  "total_prompts": 1,
+  "timestamp": "20260129_080257",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003326.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/太空射击游戏/generated_prompts/generated_prompt_20260129_003326.md",
+      "summary": "构建复古霓虹风格的HTML5 Canvas太空射击游戏，采用伪3D透视网格背景。实现了飞船操控、Boss弹幕对战、粒子爆炸特效及动态HUD界面，支持键盘与鼠标交互。",
+      "prompt_length": 2355,
+      "timestamp": "2026-01-29 08:02:57"
+    }
+  ]
+}

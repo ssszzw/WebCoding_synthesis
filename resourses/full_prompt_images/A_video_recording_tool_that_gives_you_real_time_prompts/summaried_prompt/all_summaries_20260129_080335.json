@@ -1,0 +1,14 @@
+{
+  "project_name": "A_video_recording_tool_that_gives_you_real_time_prompts",
+  "total_prompts": 1,
+  "timestamp": "20260129_080335",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003652.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/A_video_recording_tool_that_gives_you_real_time_prompts/generated_prompts/generated_prompt_20260129_003652.md",
+      "summary": "构建了一个基于Web的实时视频日记工具，集成摄像头录制功能。核心特点是在视频画面上叠加动态AI提示卡片，模拟实时采访场景引导用户发言。界面包含录制计时器、控制栏及玻璃拟态风格的交互元素。",
+      "prompt_length": 2931,
+      "timestamp": "2026-01-29 08:03:35"
+    }
+  ]
+}

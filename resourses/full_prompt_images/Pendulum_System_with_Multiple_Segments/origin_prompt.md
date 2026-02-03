@@ -1,0 +1,1 @@
+Write a JavaScript animation of a double or triple pendulum system. The segments should swing realistically under gravity, with adjustable mass and length.

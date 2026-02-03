@@ -1,0 +1,14 @@
+{
+  "project_name": "Cute_2d_Roadrunner_game",
+  "total_prompts": 1,
+  "timestamp": "20260129_035202",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_002820.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/Cute_2d_Roadrunner_game/generated_prompts/generated_prompt_20260129_002820.md",
+      "summary": "这是一个基于HTML5 Canvas的单文件2D垂直无尽跑酷游戏。玩家通过鼠标或触摸控制角色左右移动，在不断加速的赛道上躲避障碍物并收集金币。游戏具备极简可爱的视觉风格，支持动态难度调整和本地最高分保存功能。",
+      "prompt_length": 1977,
+      "timestamp": "2026-01-29 03:52:02"
+    }
+  ]
+}

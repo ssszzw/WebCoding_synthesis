@@ -1,0 +1,14 @@
+{
+  "project_name": "可交互烟花",
+  "total_prompts": 1,
+  "timestamp": "20260129_035234",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003051.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/可交互烟花/generated_prompts/generated_prompt_20260129_003051.md",
+      "summary": "实现了一个基于Canvas的高性能交互式烟花粒子系统，支持鼠标跟随生成轨迹和点击触发爆炸效果。提供玻璃拟态风格的控制面板，允许用户实时调节重力、速度、连线特效等物理参数，并包含自动演示模式。",
+      "prompt_length": 3229,
+      "timestamp": "2026-01-29 03:52:34"
+    }
+  ]
+}

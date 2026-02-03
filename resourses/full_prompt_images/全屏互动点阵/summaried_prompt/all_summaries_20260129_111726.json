@@ -1,0 +1,14 @@
+{
+  "project_name": "全屏互动点阵",
+  "total_prompts": 1,
+  "timestamp": "20260129_111726",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_033427.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/全屏互动点阵/generated_prompts/generated_prompt_20260129_033427.md",
+      "summary": "实现了一个全屏互动点阵动画生成器，提供波浪、脉冲等多种动态算法。用户可通过悬浮面板实时调整点阵形状、密度、速度等参数，支持深色模式切换及视口渲染性能优化。",
+      "prompt_length": 2109,
+      "timestamp": "2026-01-29 11:17:26"
+    }
+  ]
+}

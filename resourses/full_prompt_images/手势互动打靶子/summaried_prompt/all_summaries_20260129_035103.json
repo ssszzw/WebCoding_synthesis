@@ -1,0 +1,14 @@
+{
+  "project_name": "手势互动打靶子",
+  "total_prompts": 1,
+  "timestamp": "20260129_035103",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_002224.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/手势互动打靶子/generated_prompts/generated_prompt_20260129_002224.md",
+      "summary": "实现了一款AR手势射击游戏，利用摄像头追踪手部动作。用户通过食指控制准星、手枪手势击碎飞行靶子，配合磁吸辅助瞄准、粒子爆炸特效及合成音效，实现第一人称互动体验。",
+      "prompt_length": 3291,
+      "timestamp": "2026-01-29 03:51:03"
+    }
+  ]
+}

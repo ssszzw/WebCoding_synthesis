@@ -1,0 +1,1 @@
+Simulate a realistic water ripple effect on an HTML canvas. When the user clicks, ripples should spread outward and interact with each other.

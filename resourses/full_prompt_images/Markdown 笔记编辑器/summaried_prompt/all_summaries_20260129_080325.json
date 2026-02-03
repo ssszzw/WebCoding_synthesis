@@ -1,0 +1,14 @@
+{
+  "project_name": "Markdown 笔记编辑器",
+  "total_prompts": 1,
+  "timestamp": "20260129_080325",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003557.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/Markdown 笔记编辑器/generated_prompts/generated_prompt_20260129_003557.md",
+      "summary": "实现了一个支持实时预览和代码高亮的 Markdown 笔记编辑器，采用可调整的三栏布局。具备笔记本地存储管理、文件导入导出、全文搜索及深色模式切换功能。",
+      "prompt_length": 2352,
+      "timestamp": "2026-01-29 08:03:25"
+    }
+  ]
+}

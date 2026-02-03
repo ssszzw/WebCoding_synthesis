@@ -1,0 +1,1 @@
+I have provided an image. Code a beautiful voxel art scene inspired by this image. Write threejs code as a single-page

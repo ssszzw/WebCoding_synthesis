@@ -1,0 +1,14 @@
+{
+  "project_name": "Generate_a_3d_voxel_scene_from_a_single_image_input ",
+  "total_prompts": 1,
+  "timestamp": "20260129_035115",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_002355.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/Generate_a_3d_voxel_scene_from_a_single_image_input /generated_prompts/generated_prompt_20260129_002355.md",
+      "summary": "生成一个3D体素风格的悬浮岛场景，展现樱花树与瀑布的唯美画面。采用程序化生成技术构建地形与树冠，包含岛屿浮动、花瓣飘落等动态效果，支持用户交互式旋转和缩放视角。",
+      "prompt_length": 2361,
+      "timestamp": "2026-01-29 03:51:15"
+    }
+  ]
+}

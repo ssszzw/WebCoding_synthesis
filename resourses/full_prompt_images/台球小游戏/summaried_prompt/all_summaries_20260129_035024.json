@@ -1,0 +1,14 @@
+{
+  "project_name": "台球小游戏",
+  "total_prompts": 1,
+  "timestamp": "20260129_035024",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260128_232052.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/台球小游戏/generated_prompts/generated_prompt_20260128_232052.md",
+      "summary": "基于Canvas和Matter.js开发2D黑八台球双人对战游戏。模拟真实物理碰撞与摩擦，支持鼠标拖拽蓄力击球，包含完整的开局摆球、回合切换、进球判定及胜负规则。",
+      "prompt_length": 2209,
+      "timestamp": "2026-01-29 03:50:24"
+    }
+  ]
+}

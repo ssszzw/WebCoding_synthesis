@@ -1,0 +1,14 @@
+{
+  "project_name": "一个类似window的web_os",
+  "total_prompts": 1,
+  "timestamp": "20260129_065822",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003245.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/一个类似window的web_os/generated_prompts/generated_prompt_20260129_003245.md",
+      "summary": "实现高度仿真的Windows 11风格Web OS，具备支持拖拽缩放的窗口管理系统。内置文件管理器、模拟终端、代码编辑器、画板及贪吃蛇游戏，提供沉浸式的桌面交互体验。",
+      "prompt_length": 1945,
+      "timestamp": "2026-01-29 06:58:22"
+    }
+  ]
+}

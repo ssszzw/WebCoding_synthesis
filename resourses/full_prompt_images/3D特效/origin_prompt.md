@@ -1,0 +1,1 @@
+Prompt：Create a 3D particle galaxy with swirling nebulas, dynamic lighting.

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易2D台球游戏</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2c3e50;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1 { margin-bottom: 10px; }
+
+        .game-container {
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            border: 15px solid #5d4037; /* 木质边框 */
+            border-radius: 10px;
+        }
+
+        canvas {
+            display: block;
+            background-color: #2e7d32; /* 台泥绿 */
+            cursor: crosshair;
+        }
+
+        .controls {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ff9800;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        button:hover { background-color: #e68900; }
+        
+        p { font-size: 14px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <h1>HTML5 2D 台球</h1>
+    
+    <div class="game-container">
+        <canvas id="poolCanvas" width="800" height="400"></canvas>
+    </div>
+
+    <div class="controls">
+        <p>操作：在白球上按住鼠标左键拖拽瞄准，松开击球。</p>
+        <button onclick="resetGame()">重置游戏</button>
+    </div>
+
+<script>
+    const canvas = document.getElementById('poolCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // 物理参数
+    const FRICTION = 0.985; // 摩擦力 (0-1，越小停得越快)
+    const WALL_BOUNCE = 0.9; // 墙壁弹性
+    const MAX_POWER = 15; // 最大击球力度
+    const BALL_RADIUS = 12;
+
+    let balls = [];
+    let cueBall;
+    
+    // 鼠标控制状态
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragStartY = 0;
+    let dragCurrentX = 0;
+    let dragCurrentY = 0;
+
+    // 球体类
+    class Ball {
+        constructor(x, y, color, isCue = false) {
+            this.x = x;
+            this.y = y;
+            this.vx = 0; // X轴速度
+            this.vy = 0; // Y轴速度
+            this.radius = BALL_RADIUS;
+            this.color = color;
+            this.mass = 1; // 假设质量都一样
+            this.isCue = isCue; // 是否是母球
+        }
+
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+            ctx.strokeStyle = '#000';
+            ctx.stroke();
+            
+            // 简单的高光效果，让球看起来立体一点
+            ctx.beginPath();
+            ctx.arc(this.x - 3, this.y - 3, this.radius / 3, 0, Math.PI * 2);
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+            ctx.fill();
+        }
+
+        update() {
+            // 应用速度
+            this.x += this.vx;
+            this.y += this.vy;
+
+            // 应用摩擦力
+            this.vx *= FRICTION;
+            this.vy *= FRICTION;
+
+            // 速度极小时停止，避免微小抖动
+            if (Math.abs(this.vx) < 0.01) this.vx = 0;
+            if (Math.abs(this.vy) < 0.01) this.vy = 0;
+
+            // 墙壁碰撞检测
+            if (this.x + this.radius > canvas.width) {
+                this.x = canvas.width - this.radius;
+                this.vx = -this.vx * WALL_BOUNCE;
+            } else if (this.x - this.radius < 0) {
+                this.x = this.radius;
+                this.vx = -this.vx * WALL_BOUNCE;
+            }
+
+            if (this.y + this.radius > canvas.height) {
+                this.y = canvas.height - this.radius;
+                this.vy = -this.vy * WALL_BOUNCE;
+            } else if (this.y - this.radius < 0) {
+                this.y = this.radius;
+                this.vy = -this.vy * WALL_BOUNCE;
+            }
+        }
+    }
+
+    // 初始化游戏
+    function init() {
+        balls = [];
+        
+        // 创建母球 (白球)
+        cueBall = new Ball(200, canvas.height / 2, 'white', true);
+        balls.push(cueBall);
+
+        // 创建彩球 (摆成三角形)
+        const startX = 550;
+        const startY = canvas.height / 2;
+        const rows = 5;
+        const colors = ['#e74c3c', '#f1c40f', '#3498db', '#9b59b6', '#2c3e50', '#e67e22', '#1abc9c'];
+        
+        let colorIdx = 0;
+        for (let i = 0; i < rows; i++) {
+            for (let j = 0; j <= i; j++) {
+                const x = startX + i * (BALL_RADIUS * 2 + 2); // +2 是微小间隙
+                const y = startY - i * BALL_RADIUS + j * (BALL_RADIUS * 2 + 2);
+                // 随机颜色
+                const color = colors[colorIdx % colors.length];
+                balls.push(new Ball(x, y, color));
+                colorIdx++;
+            }
+        }
+    }
+
+    // 检测两个球之间的距离
+    function getDistance(b1, b2) {
+        return Math.sqrt((b1.x - b2.x)**2 + (b1.y - b2.y)**2);
+    }
+
+    // 核心物理引擎：处理球体碰撞
+    function resolveCollision(b1, b2) {
+        const dx = b2.x - b1.x;
+        const dy = b2.y - b1.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < b1.radius + b2.radius) {
+            // 1. 静态冲突解决 (Static Resolution)
+            // 防止球体重叠粘在一起。将它们推开，直到刚好接触。
+            const overlap = (b1.radius + b2.radius - distance) / 2;
+            const offsetX = (dx / distance) * overlap;
+            const offsetY = (dy / distance) * overlap;
+
+            b1.x -= offsetX;
+            b1.y -= offsetY;
+            b2.x += offsetX;
+            b2.y += offsetY;
+
+            // 2. 动态弹性碰撞 (Dynamic Collision)
+            // 计算碰撞法向量
+            const nx = dx / distance;
+            const ny = dy / distance;
+
+            // 相对速度
+            const dvx = b2.vx - b1.vx;
+            const dvy = b2.vy - b1.vy;
+
+            // 速度在法向量上的投影 (点积)
+            const dotProduct = dvx * nx + dvy * ny;
+
+            // 如果球正在分离，则不处理
+            if (dotProduct > 0) return;
+
+            // 动量守恒简化公式 (假设质量相同 m1=m2)
+            // 交换法向量方向的速度分量
+            const impulse = dotProduct; // 因为质量为1，简化计算
+
+            b1.vx += impulse * nx;
+            b1.vy += impulse * ny;
+            b2.vx -= impulse * nx;
+            b2.vy -= impulse * ny;
+        }
+    }
+
+    // 绘制瞄准线和球杆
+    function drawCue() {
+        if (isDragging && cueBall) {
+            // 计算拉力向量 (从鼠标指向球)
+            let dx = cueBall.x - dragCurrentX;
+            let dy = cueBall.y - dragCurrentY;
+            
+            // 限制最大力度可视化
+            const len = Math.sqrt(dx*dx + dy*dy);
+            const maxLen = 150; 
+            if (len > maxLen) {
+                dx = (dx / len) * maxLen;
+                dy = (dy / len) * maxLen;
+            }
+
+            // 绘制力度线 (球杆)
+            ctx.beginPath();
+            ctx.moveTo(cueBall.x, cueBall.y);
+            // 球杆在鼠标相反方向
+            ctx.lineTo(cueBall.x - dx, cueBall.y - dy);
+            ctx.lineWidth = 5;
+            ctx.strokeStyle = '#8d6e63'; // 球杆颜色
+            ctx.stroke();
+            ctx.lineWidth = 1;
+
+            // 绘制瞄准虚线 (预测方向)
+            ctx.beginPath();
+            ctx.moveTo(cueBall.x, cueBall.y);
+            ctx.lineTo(cueBall.x + dx * 2, cueBall.y + dy * 2);
+            ctx.setLineDash([5, 5]);
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+            ctx.stroke();
+            ctx.setLineDash([]);
+        }
+    }
+
+    // 游戏主循环
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // 1. 更新位置
+        balls.forEach(ball => ball.update());
+
+        // 2. 检测碰撞 (简单的两两检测，O(N^2))
+        for (let i = 0; i < balls.length; i++) {
+            for (let j = i + 1; j < balls.length; j++) {
+                resolveCollision(balls[i], balls[j]);
+            }
+        }
+
+        // 3. 绘制
+        drawCue(); // 绘制球杆在球的下层（虽然通常在上层，但为了不遮挡球的颜色先这样）
+        balls.forEach(ball => ball.draw());
+
+        requestAnimationFrame(animate);
+    }
+
+    // --- 事件监听 ---
+
+    canvas.addEventListener('mousedown', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+
+        // 只有当所有球基本静止，且点击的是白球时才能操作
+        const allStopped = balls.every(b => Math.abs(b.vx) < 0.1 && Math.abs(b.vy) < 0.1);
+        
+        if (allStopped && getDistance({x: mouseX, y: mouseY}, cueBall) < cueBall.radius * 2) {
+            isDragging = true;
+            dragStartX = mouseX;
+            dragStartY = mouseY;
+            dragCurrentX = mouseX;
+            dragCurrentY = mouseY;
+        }
+    });
+
+    canvas.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            const rect = canvas.getBoundingClientRect();
+            dragCurrentX = e.clientX - rect.left;
+            dragCurrentY = e.clientY - rect.top;
+        }
+    });
+
+    canvas.addEventListener('mouseup', () => {
+        if (isDragging) {
+            // 计算发射速度向量
+            let dx = cueBall.x - dragCurrentX;
+            let dy = cueBall.y - dragCurrentY;
+
+            // 限制力度
+            // 简单的映射：拖拽距离 / 系数 = 速度
+            const powerFactor = 0.15; 
+            let vx = dx * powerFactor;
+            let vy = dy * powerFactor;
+
+            // 限制最大速度
+            const speed = Math.sqrt(vx*vx + vy*vy);
+            if (speed > MAX_POWER) {
+                vx = (vx / speed) * MAX_POWER;
+                vy = (vy / speed) * MAX_POWER;
+            }
+
+            cueBall.vx = vx;
+            cueBall.vy = vy;
+
+            isDragging = false;
+        }
+    });
+
+    // 触摸支持 (移动端)
+    canvas.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        const touch = e.touches[0];
+        const mouseEvent = new MouseEvent('mousedown', {
+            clientX: touch.clientX,
+            clientY: touch.clientY
+        });
+        canvas.dispatchEvent(mouseEvent);
+    }, {passive: false});
+
+    canvas.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+        const touch = e.touches[0];
+        const mouseEvent = new MouseEvent('mousemove', {
+            clientX: touch.clientX,
+            clientY: touch.clientY
+        });
+        canvas.dispatchEvent(mouseEvent);
+    }, {passive: false});
+
+    canvas.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        const mouseEvent = new MouseEvent('mouseup', {});
+        canvas.dispatchEvent(mouseEvent);
+    }, {passive: false});
+
+    function resetGame() {
+        init();
+    }
+
+    // 启动
+    init();
+    animate();
+
+</script>
+</body>
+</html>

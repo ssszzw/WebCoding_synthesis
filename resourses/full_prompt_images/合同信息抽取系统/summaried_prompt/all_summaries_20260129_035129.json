@@ -1,0 +1,14 @@
+{
+  "project_name": "合同信息抽取系统",
+  "total_prompts": 1,
+  "timestamp": "20260129_035129",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_002540.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/合同信息抽取系统/generated_prompts/generated_prompt_20260129_002540.md",
+      "summary": "实现合同信息抽取界面，采用左右分栏展示文档与提取字段。核心功能包括字段与原文内容的动态SVG连线、点击定位高亮，以及支持从文档选中文本自动填充表单的交互修正功能。",
+      "prompt_length": 2682,
+      "timestamp": "2026-01-29 03:51:29"
+    }
+  ]
+}

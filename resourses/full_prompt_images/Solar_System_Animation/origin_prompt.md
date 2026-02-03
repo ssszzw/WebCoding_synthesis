@@ -1,0 +1,1 @@
+Simulate a simplified solar system with planets orbiting a sun. Each planet should have a different orbital speed and radius, and the simulation should be visually appealing.

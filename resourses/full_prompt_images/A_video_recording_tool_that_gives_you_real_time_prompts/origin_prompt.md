@@ -1,0 +1,1 @@
+a video recording tool where the AI gives you real-time prompts based on what you're saying, so you never get stuck. Everyone should have their own podcast host.

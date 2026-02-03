@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交互式机翼气流模拟器</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #eee;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h2 { margin: 10px 0; font-weight: 300; }
+
+        .container {
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        canvas {
+            background: linear-gradient(to bottom, #2b32b2, #1488cc); 
+            cursor: crosshair;
+            display: block;
+        }
+
+        .controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+            backdrop-filter: blur(5px);
+        }
+
+        .control-group {
+            margin-bottom: 12px;
+        }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+            margin-bottom: 4px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .stats {
+            margin-top: 15px;
+            border-top: 1px solid #555;
+            padding-top: 10px;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .lift-positive { color: #4cd137; }
+        .lift-negative { color: #e84118; }
+        
+        .legend {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>2D 机翼气流模拟器 (Joukowski Airfoil)</h2>
+
+    <div class="container">
+        <canvas id="simCanvas" width="900" height="500"></canvas>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label>攻角 (Angle): <span id="val-alpha">0°</span></label>
+                <input type="range" id="inp-alpha" min="-20" max="30" step="1" value="5">
+            </div>
+            <div class="control-group">
+                <label>弯度 (Camber): <span id="val-camber">0.1</span></label>
+                <input type="range" id="inp-camber" min="-0.3" max="0.3" step="0.01" value="0.1">
+            </div>
+            <div class="control-group">
+                <label>厚度 (Thickness): <span id="val-thick">0.1</span></label>
+                <input type="range" id="inp-thick" min="0.01" max="0.3" step="0.01" value="0.1">
+            </div>
+            <div class="control-group">
+                <label>流速 (Speed): <span id="val-speed">High</span></label>
+                <input type="range" id="inp-speed" min="0.5" max="2.0" step="0.1" value="1.0">
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span>升力系数 (Cl):</span>
+                    <span id="output-lift" class="lift-positive">0.00</span>
+                </div>
+                <div class="stat-item">
+                    <span>环量 (Gamma):</span>
+                    <span id="output-circ">0.00</span>
+                </div>
+            </div>
+            <div class="legend">
+                颜色: 红色=高速, 蓝色=低速
+            </div>
+        </div>
+    </div>
+
+<script>
+/**
+ * 物理引擎核心：儒可夫斯基变换 (Joukowski Transform)
+ * 
+ * 原理：
+ * 1. 在 Z-plane (物理平面) 很难直接计算机翼周围流场。
+ * 2. 我们在一个辅助的 Zeta-plane (计算平面) 上模拟流过圆柱体的气流。
+ * 3. 使用复变函数 z = ζ + 1/ζ 将圆柱体映射为机翼形状。
+ * 4. 通过调节圆心偏移量，可以改变映射出的机翼的弯度和厚度。
+ */
+
+const canvas = document.getElementById('simCanvas');
+const ctx = canvas.getContext('2d');
+
+// UI 元素
+const ui = {
+    alpha: document.getElementById('inp-alpha'),
+    camber: document.getElementById('inp-camber'),
+    thickness: document.getElementById('inp-thick'),
+    speed: document.getElementById('inp-speed'),
+    valAlpha: document.getElementById('val-alpha'),
+    valCamber: document.getElementById('val-camber'),
+    valThick: document.getElementById('val-thick'),
+    outLift: document.getElementById('output-lift'),
+    outCirc: document.getElementById('output-circ')
+};
+
+// 模拟参数
+let params = {
+    alpha: 5 * Math.PI / 180, // 攻角 (弧度)
+    cx: -0.1, // 圆心 X 偏移 (控制厚度)
+    cy: 0.1,  // 圆心 Y 偏移 (控制弯度)
+    radius: 0, // 圆半径 (动态计算)
+    flowSpeed: 1.0,
+    zoom: 150, // 缩放比例 (像素/单位)
+    offsetX: canvas.width / 2,
+    offsetY: canvas.height / 2
+};
+
+// 粒子系统
+const particles = [];
+const PARTICLE_COUNT = 600;
+
+// 复数运算辅助类
+class Complex {
+    constructor(x, y) { this.x = x; this.y = y; }
+    add(c) { return new Complex(this.x + c.x, this.y + c.y); }
+    sub(c) { return new Complex(this.x - c.x, this.y - c.y); }
+    mult(c) { return new Complex(this.x * c.x - this.y * c.y, this.x * c.y + this.y * c.x); }
+    div(c) {
+        const d = c.x * c.x + c.y * c.y;
+        return new Complex((this.x * c.x + this.y * c.y) / d, (this.y * c.x - this.x * c.y) / d);
+    }
+    mag() { return Math.sqrt(this.x * this.x + this.y * this.y); }
+    arg() { return Math.atan2(this.y, this.x); }
+}
+
+// 初始化
+function init() {
+    updateParams();
+    // 预先生成粒子
+    for(let i=0; i<PARTICLE_COUNT; i++) {
+        resetParticle(i, true);
+    }
+    animate();
+}
+
+// 更新参数
+function updateParams() {
+    // 读取 UI
+    const alphaDeg = parseFloat(ui.alpha.value);
+    params.alpha = alphaDeg * Math.PI / 180;
+    
+    // Joukowski 参数映射
+    // 圆必须经过变换奇点 (1,0) 才能形成锐利的后缘
+    // 圆心为 (cx, cy)。后缘点在计算平面为 (1,0)。
+    // 半径 R = distance((cx,cy), (1,0))
+    params.cx = -parseFloat(ui.thickness.value); // X负向偏移增加厚度
+    params.cy = parseFloat(ui.camber.value);     // Y偏移增加弯度
+    
+    params.flowSpeed = parseFloat(ui.speed.value);
+
+    // 计算半径以满足库塔条件(Kutta Condition)的几何部分: 圆必须通过 (1,0)
+    params.radius = Math.sqrt(Math.pow(1 - params.cx, 2) + Math.pow(params.cy, 2));
+
+    // 更新 UI 显示文本
+    ui.valAlpha.textContent = alphaDeg + "°";
+    ui.valCamber.textContent = params.cy.toFixed(2);
+    ui.valThick.textContent = Math.abs(params.cx).toFixed(2);
+
+    calculateLift();
+}
+
+// 计算升力和环量
+function calculateLift() {
+    // 库塔条件：为了让气流平滑离开后缘，需要在圆柱上施加环量 Gamma。
+    // Gamma = -4 * PI * V * R * sin(alpha + beta)
+    // beta 是后缘点相对于圆心的角度
+    const beta = Math.asin(params.cy / params.radius);
+    const gamma = -4 * Math.PI * params.flowSpeed * params.radius * Math.sin(params.alpha + beta);
+    
+    // 升力 L = rho * V * Gamma (Kutta-Joukowski 定理)
+    // 这里忽略密度 rho，只显示相对升力系数
+    const lift = -gamma * params.flowSpeed; // 负号是为了修正坐标系方向
+
+    ui.outCirc.textContent = (-gamma).toFixed(2);
+    ui.outLift.textContent = lift.toFixed(2);
+    
+    if(lift >= 0) {
+        ui.outLift.className = "lift-positive";
+        ui.outLift.textContent = "+ " + ui.outLift.textContent;
+    } else {
+        ui.outLift.className = "lift-negative";
+    }
+    
+    return gamma;
+}
+
+// 重置粒子位置
+function resetParticle(index, randomX = false) {
+    // 在 Zeta 平面 (圆柱左侧) 生成粒子
+    // Y 范围稍大一点以覆盖整个流场
+    const ySpread = 3.5; 
+    const startX = -3.5;
+    
+    let y = (Math.random() - 0.5) * ySpread * 2;
+    // 如果想要流线效果，可以将 y 离散化，但这需要粒子重用逻辑更复杂。
+    // 这里使用随机分布形成"烟雾"感。
+    
+    let x = randomX ? (Math.random() * 6 - 3) : startX;
+
+    particles[index] = {
+        zeta: new Complex(x, y), // 计算平面位置
+        z: new Complex(0, 0),    // 物理平面位置
+        vel: 0,                  // 速度大小 (用于着色)
+        active: true,
+        history: []              // 轨迹尾迹
+    };
+}
+
+// 核心流体力学计算
+function getComplexVelocity(zeta) {
+    // 1. 转换到相对于圆心的坐标
+    const z_c = new Complex(zeta.x - params.cx, zeta.y - params.cy);
+    const r = z_c.mag();
+    const theta = z_c.arg();
+
+    // 防止除以零（在圆内部）
+    if (r < params.radius) return new Complex(0, 0);
+
+    // 2. 计算圆柱绕流 (无环量)
+    // V_pot = V_inf * e^(-i*alpha)
+    // Complex Potential Derivative W'(zeta) = V_inf * (e^(-i*alpha) - R^2 * e^(i*alpha) / (zeta-c)^2)
+    
+    // 这里我们直接用极坐标形式的切向/径向速度合成，更直观
+    // 但复势导数法更适合变换。让我们用复数法。
+    
+    const Vinf = params.flowSpeed;
+    const alpha = params.alpha;
+    const R = params.radius;
+    
+    // 自由流项 + 偶极子项
+    // Term 1: V * e^(-ia)
+    const term1 = new Complex(Vinf * Math.cos(-alpha), Vinf * Math.sin(-alpha));
+    
+    // Term 2: - V * e^(ia) * R^2 / (z_c^2)
+    const z_c2 = z_c.mult(z_c);
+    const term2_num = new Complex(Vinf * Math.cos(alpha) * R * R, Vinf * Math.sin(alpha) * R * R);
+    const term2 = term2_num.div(z_c2);
+    
+    // 3. 添加环量项 (Vortex)
+    // Term 3: - i * Gamma / (2 * PI * z_c)
+    const beta = Math.asin(params.cy / params.radius);
+    const gamma = -4 * Math.PI * Vinf * R * Math.sin(alpha + beta);
+    
+    const iGamma = new Complex(0, -gamma / (2 * Math.PI)); // -i * Gamma
+    const term3 = iGamma.div(z_c);
+
+    // Zeta 平面上的总速度: W = Term1 - Term2 + Term3
+    const W_zeta = term1.sub(term2).add(term3);
+
+    return W_zeta;
+}
+
+// 主动画循环
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // 绘制流线背景 (可选，略过以保持性能)
+    
+    // 1. 绘制机翼
+    drawAirfoil();
+
+    // 2. 更新并绘制粒子
+    ctx.lineWidth = 2;
+    
+    // 预计算导数变换因子
+    // dz/dzeta = 1 - 1/zeta^2
+    
+    particles.forEach((p, idx) => {
+        if (!p.active) return;
+
+        // 获取 Zeta 平面速度
+        const W_zeta = getComplexVelocity(p.zeta);
+        
+        // 计算映射导数 dz/dzeta = 1 - 1/zeta^2
+        const zeta2 = p.zeta.mult(p.zeta);
+        const oneOverZeta2 = new Complex(1, 0).div(zeta2);
+        const dz_dzeta = new Complex(1 - oneOverZeta2.x, -oneOverZeta2.y);
+        
+        // 物理平面速度 Vz = W_zeta / (dz/dzeta)
+        // 注意：在奇点 (zeta=1或-1) 附近导数为0，速度趋于无穷，需要钳制
+        let Vz = new Complex(0,0);
+        const derivMag = dz_dzeta.mag();
+        
+        if (derivMag > 0.01) {
+            Vz = W_zeta.div(dz_dzeta);
+        } else {
+            Vz = W_zeta.mult(new Complex(100, 0)); // 简单处理奇点
+        }
+
+        // 更新位置 (Euler integration)
+        const dt = 0.05;
+        p.zeta.x += W_zeta.x * dt; // 在计算平面移动粒子
+        p.zeta.y += -W_zeta.y * dt; // 注意：Y轴在Canvas中向下，复平面向上，需注意符号
+        
+        // 映射到物理平面用于显示
+        // z = zeta + 1/zeta
+        const invZeta = new Complex(1,0).div(p.zeta);
+        p.z = p.zeta.add(invZeta);
+
+        // 速度大小用于着色
+        p.vel = Vz.mag();
+
+        // 边界检查：出了屏幕或进入机翼内部
+        // 简单的内部检查：如果 Zeta 在圆内
+        const distToCenter = Math.sqrt(Math.pow(p.zeta.x - params.cx, 2) + Math.pow(p.zeta.y - params.cy, 2));
+        
+        if (p.z.x * params.zoom + params.offsetX > canvas.width + 50 || 
+            distToCenter < params.radius * 0.95) {
+            resetParticle(idx);
+        } else {
+            drawParticle(p);
+        }
+    });
+
+    requestAnimationFrame(animate);
+}
+
+function drawParticle(p) {
+    const x = p.z.x * params.zoom + params.offsetX;
+    const y = -p.z.y * params.zoom + params.offsetY; // Flip Y for canvas
+
+    // 颜色映射：慢=蓝, 快=红
+    // 基准速度 params.flowSpeed
+    const speedRatio = p.vel / params.flowSpeed;
+    let r, g, b;
+    
+    if (speedRatio < 0.8) { // Slow
+        r=0; g=100; b=255;
+    } else if (speedRatio < 1.2) { // Normal
+        r=200; g=200; b=200;
+    } else { // Fast
+        r=255; g=50; b=0;
+    }
+
+    // 简单混合
+    const color = `rgba(${Math.min(255, r * speedRatio)}, ${Math.min(255, g * speedRatio)}, ${b}, 0.6)`;
+
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.arc(x, y, 2, 0, Math.PI*2);
+    ctx.fill();
+    
+    // 简单的拖尾效果
+    if(Math.random() > 0.8) {
+        ctx.fillStyle = `rgba(255,255,255,0.1)`;
+        ctx.fillRect(x-2, y-2, 4, 4);
+    }
+}
+
+function drawAirfoil() {
+    ctx.fillStyle = "#888";
+    ctx.strokeStyle = "#fff";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+
+    // 绘制机翼轮廓
+    // 通过遍历圆周上的点并变换得到
+    const steps = 100;
+    for (let i = 0; i <= steps; i++) {
+        const theta = (i / steps) * 2 * Math.PI;
+        // 圆上一点
+        const zetaX = params.cx + params.radius * Math.cos(theta);
+        const zetaY = params.cy + params.radius * Math.sin(theta);
+        
+        // 变换 z = zeta + 1/zeta
+        const den = zetaX * zetaX + zetaY * zetaY;
+        const zx = zetaX * (1 + 1/den);
+        const zy = zetaY * (1 - 1/den);
+
+        const screenX = zx * params.zoom + params.offsetX;
+        const screenY = -zy * params.zoom + params.offsetY;
+
+        if (i === 0) ctx.moveTo(screenX, screenY);
+        else ctx.lineTo(screenX, screenY);
+    }
+    
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+
+    // 绘制攻角指示线
+    /*
+    ctx.beginPath();
+    ctx.strokeStyle = "rgba(255, 255, 0, 0.3)";
+    ctx.setLineDash([5, 5]);
+    const noseX = (params.cx + params.radius + 1/(params.cx + params.radius)) * params.zoom + params.offsetX; // Approx
+    ctx.moveTo(params.offsetX - 100, params.offsetY);
+    ctx.lineTo(params.offsetX + 100, params.offsetY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    */
+}
+
+// 事件监听
+ui.alpha.addEventListener('input', updateParams);
+ui.camber.addEventListener('input', updateParams);
+ui.thickness.addEventListener('input', updateParams);
+ui.speed.addEventListener('input', updateParams);
+
+// 启动
+init();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "project_name": "蜡烛燃烧",
+  "total_prompts": 1,
+  "timestamp": "20260129_104154",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_031759.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/蜡烛燃烧/generated_prompts/generated_prompt_20260129_031759.md",
+      "summary": "实现了一个逼真的蜡烛燃烧动画，蜡烛主体在10秒内逐渐融化直至消失。包含动态闪烁的火焰效果、随高度变化的烛芯位置同步逻辑，以及燃烧结束后的自动熄灭功能。",
+      "prompt_length": 2057,
+      "timestamp": "2026-01-29 10:41:54"
+    }
+  ]
+}

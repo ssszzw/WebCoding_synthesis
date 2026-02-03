@@ -1,0 +1,1 @@
+Write html/css/js to render a wireframe cube that slowly rotates in 3d perspective. use only canvas 2d context (no webgl). lines must connect properly to form the cube at all times.

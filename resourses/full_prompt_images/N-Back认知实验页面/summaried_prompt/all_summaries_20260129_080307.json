@@ -1,0 +1,14 @@
+{
+  "project_name": "N-Back认知实验页面",
+  "total_prompts": 1,
+  "timestamp": "20260129_080307",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003421.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/N-Back认知实验页面/generated_prompts/generated_prompt_20260129_003421.md",
+      "summary": "实现了一个N-Back认知测试应用，支持自定义N值难度。用户需对汉字序列进行记忆与匹配判断，系统提供实时反馈。实验结束后展示正确率统计并支持结果数据导出。",
+      "prompt_length": 1793,
+      "timestamp": "2026-01-29 08:03:07"
+    }
+  ]
+}

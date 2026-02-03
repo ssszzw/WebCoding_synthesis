@@ -1,0 +1,14 @@
+{
+  "project_name": "像素画",
+  "total_prompts": 1,
+  "timestamp": "20260129_111717",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_031828.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/像素画/generated_prompts/generated_prompt_20260129_031828.md",
+      "summary": "构建一个Web端像素画编辑器，支持网格绘图、选色及撤销操作。核心特色是提供绘画过程的动态回放功能，并能将创作过程生成为GIF动画导出下载。",
+      "prompt_length": 3135,
+      "timestamp": "2026-01-29 11:17:17"
+    }
+  ]
+}

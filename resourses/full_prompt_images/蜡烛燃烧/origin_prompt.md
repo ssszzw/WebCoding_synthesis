@@ -1,0 +1,1 @@
+prompt: Create a standalone HTML file (no external resources, no libraries) that renders a highly realistic candle flame animation, and has it melt within 10 seconds.

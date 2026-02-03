@@ -1,0 +1,3279 @@
+================================================================================
+转换为对话格式工具
+================================================================================
+Prompt文件: /Users/shenzhiwei/intern-content/code/WebCoding_synthesis/data/05expanded_prompts/multi_level_prompts_20260130_113627.jsonl
+Generation Report: /Users/shenzhiwei/intern-content/code/WebCoding_synthesis/data/06generated_html/generation_report_20260201_195002.json
+输出目录: /Users/shenzhiwei/intern-content/code/WebCoding_synthesis/data/07conversation_format/conversations_20260203_112246
+================================================================================
+
+正在加载prompts...
+✓ 加载了 648 个项目的prompts
+
+正在读取generation report: generation_report_20260201_195002.json
+✓ 加载了 648 个项目的生成结果
+
+正在复制输入文件...
+✓ 已复制: multi_level_prompts_20260130_113627.jsonl
+✓ 已复制: generation_report_20260201_195002.json
+
+开始转换...
+
+处理: 蜡烛燃烧
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Multi-ball_heptagon_physics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: One_shot_water_physics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rotating_Hexagon_with_a_ball
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 杯子倒水
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 可交互烟花
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 鞭炮连锁爆炸
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Water_Ripple_Effect_on_Canvas
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 大箱牙膏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Pendulum_System_with_Multiple_Segments
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Satellite_Signal_Simulation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Henon_Map_Discrete_Dynamical
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 火焰龙卷风
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Kapitza_Pendulum_Stability
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 陨石撞击热坑
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lorenz_Attractor_WebGL_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rossler_Attractor_Particle_Cloud
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Coupled_Oscillators_Synchronization
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Figure_Eight_Orbit_Stability
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 冲击波畸变场
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 铝热剂反应
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Elastic_Pendulum_Resonance_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 火箭发动机尾焰
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 海上油轮泄漏火灾
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Solar_System_Animation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lissajous_Table_Physics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: WebGL_Fluid_Caustics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 火焰喷射器流体
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Chladni_Plate_Patterns
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sinai_Billiards_Entropy_Vis
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 彩色烟雾弹
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Bunimovich_Stadium_Billiards
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 核爆蘑菇云演化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 龙息喷吐特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Triple_Pendulum_Chaos_Lab
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stable_Fluids_Smoke
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 莫洛托夫燃烧瓶
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Duffing_Oscillator_Phase_Portrait
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Hydraulic_Jump_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Restricted_Three_Body_Explorer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Heat_Convection_Cells
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 四冲程内燃机透视
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Ferrofluid_Spikes
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: SPH_Dam_Break
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 本生灯火焰物理模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 粉尘爆炸实验
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Magnus_Effect_Flow
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 导火索与卡通炸弹
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 火柴划燃仿真
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: LBM_Wind_Tunnel
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 化学焰色反应
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 凝固汽油粘附燃烧
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Doppler_Effect_Field
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Chirikov_Standard_Map_Zoom
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 灭火器交互仿真
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Metaball_Mercury_Drops
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Gravity_Assist_Trajectory_Planner
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Magnetic_Pendulum_Fractal_Generator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 定向爆破模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Shockwave_Propagation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 燃气灶环形火
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Non_Newtonian_SPH
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Foucault_Pendulum_Reference_Frame
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Viscous_Honey_Coiling
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 纸张烧蚀边缘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rayleigh_Taylor_Instability
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Kelvin_Helmholtz_Shear
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 手持仙女棒
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 奥林匹克圣火盆
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Double_Slit_Interference
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Surface_Tension_Membrane
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 森林火灾元胞自动机
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 2D_Aerofoil_Lift
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Karman_Vortex_Street
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Fermi_Ulam_Accelerator_Model
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Euler_Flow_Field_Painter
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Swinging_Atwoods_Machine
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wave_Packet_Dispersion
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Marangoni_Soap_Boat
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Driven_Damped_Pendulum_Bifurcation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Standing_Wave_String
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Compound_Double_Pendulum_Rigid
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lennard_Jones_Gas_Dynamics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wilberforce_Pendulum_Coupling
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: particle_life
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 鸟骑自行车svg
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Chaotic_Waterwheel_Malkus
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Inverted_Pendulum_Manual_Control
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Vibrant_Coral_Reef
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Kepler_Law_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 日签网站
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Hohmann_Transfer_Calc
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lagrange_Point_Explorer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Binary_Star_Dynamics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Roche_Limit_Destruction
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Ink_Diffusion_Art
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Black_Hole_Lensing_WebGL
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Predator_Prey_Steering
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Magnetosphere_Particle_Shield
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cyclic_Cellular_War
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stable_Three_Body_Orbit
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stellar_Parallax_Tool
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Gravity_Assist_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 折纸艺术展开动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Orbital_Elements_3D
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Tidal_Locking_Demo
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Continuous_Lenia_Lite
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Flow_Field_Swarm
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 数据大屏幕
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Forest_Fire_Percolation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wireworld_Logic_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Vicsek_Flocking_Phase
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 植物生长周期延时动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Crowd_Panic_Evacuation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Astro_Doppler_Shift
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wa_Tor_Ecosystem
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Retrograde_Motion_View
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Kessler_Syndrome_Model
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Traffic_Phantom_Jams
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Gravitational_Well_Mesh
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Gray_Scott_Diffusion
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Ocean_Tides_Gravity
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: DLA_Crystal_Growth
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 意式咖啡制作流程图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sheep_Herding_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Firefly_Synchronization
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Galaxy_Rotation_Curves
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: DNA双螺旋旋转特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Termite_Stigmergy
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Pulsar_Beacon_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Langtons_Ant_Extended
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Braitenberg_Vehicles
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Primordial_Particle_Soup
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: SVG机械表芯透视动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Evolving_Camouflage
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Solar_Eclipse_Shadows
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: PCB电路板电流流向图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Atmospheric_Reentry_Angle
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Orbital_Rendezvous_Docking
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Physarum_Slime_Mold
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wolfram_1D_Automata
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Genetic_Smart_Rockets
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 智能物流仓储流程图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 火箭发射轨迹可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 牛顿摆物理运动演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Exoplanet_Transit_Graph
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 眼球追踪与眨眼动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Epicycle_System_History
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 雷达扫描与目标定位
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 矢量手写签名生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态天气图标系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 机械锁芯开锁原理
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 复古磁带播放器交互
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sandpile_Avalanche
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 心跳与心电图同步演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rocket_Staging_Physics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: SIR_Epidemic_Agents
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 航线网络飞行演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 四冲程发动机原理演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 书籍翻页交互特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 蜘蛛结网过程模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Ant_Colony_Foraging
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 地铁线路动态生成图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 矢量烟花燃放编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 太阳系公转模型
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 合同信息抽取系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: SVG骨骼行走动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 交互式SVG分级统计地图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Canvas热力图渲染器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多维雷达能力图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: walking_through_the_forest_with_falling_autumn_leaves
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 交互式旭日图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cappadocia_Balloon_Festival
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 音频可视化均衡器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 金融K线图表组件
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Manhattan-Central_Park_Four_Seasons
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 登录权限验证机制
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态桑基图生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 销售漏斗图组件
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 气象风玫瑰图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 伪3D地球投影
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Generate_a_3d_voxel_scene_from_a_single_image_input 
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 河流图演化展示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 帕累托分析图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 矩形树图浏览器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 径向柱状图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 地铁线路拓扑图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 日历热力图组件
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 财务瀑布图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 实时服务器监控仪表盘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 合规性清单审核助手
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 六边形蜂窝地图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 平行坐标系可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 子弹图性能仪表
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态气泡散点图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 财报数据溯源分析器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 人口金字塔图表
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 敏感数据脱敏红黑箱
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 医疗病历实体标注工具
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 全文检索模式可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 学术论文引用可视化阅读器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 食谱用量动态换算器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 数字化表单套打设计器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 和弦图关系可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 文档协作评论锚点系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态合同模板填充向导
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 航线流向可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 交互式甘特图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 步骤式文档生成向导
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 简历智能解析映射器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Voxel_Ancient_Roman_City
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 文本时间轴生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Savanna_Heat_Distortion
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Volcanic_Eruption_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 脚注与尾注动态连接器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 日志堆栈错误映射器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 智能目录导航地图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多语言文档对齐编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 复杂嵌套列表重组器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Bioluminescent_Night_Forest
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 仓库货单可视化核对
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Dynamic_Dune_Sea
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Aurora_Borealis_Sky
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: L-System_Tree_Laboratory
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cherry_Blossom_Spring_Wind
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Crystal_Cavern
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 发票数据校验工作台
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 剧本角色对白管理器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Canyon_Erosion_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Cloud_Kingdom
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Wheat_Field_Wind_Waves
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: JSON模式映射配置器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Zen_Garden_Sand_Ripples
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 试卷评分与批注系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 法律条款差异比对视图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mystic_Swamp_Fog
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Terrarium_Micro_World
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: DOM树可视化探索器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Bamboo_Grove_Verticality
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Iceberg_Drift_Simulator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Tropical_Atoll
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Alpine_Lake_Reflections
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mist_Valley_Ink_Style
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Coral_Reef_Life
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Using_3D_to_visualize_Energy_in_a_Chaos_state
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Martian_Terrain_Rover
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Oasis_Mirage_Effect
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 粒子交互
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rice_Terrace_Reflections
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stormy_Ocean_Simulation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Gothic_Cathedral_Constructor
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 云霄飞车动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Medieval_Castle_System
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Manhattan_Zoning_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rotating_cube_optical_illusion
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Voxel_Suzhou_Garden
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Aztec_Temple_Generator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Egyptian_Pyramid_Section
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Great_Wall_Generator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Waterfall_Mist_Rainbow
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Parthenon_Time_Lapse
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 3D特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Pagoda_Towers
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Brutalist_Architecture_Gen
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Islamic_Geometry_Dome
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Suspension_Bridge_Calculator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Venetian_Canal_Builder
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Raymarching_SDF_Morphing
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Bioluminescent_Creature_Skin
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Retro_CRT_Monitor_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stonehenge_Astronomer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Iridescent_Soap_Bubble
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Dutch_Windmill_Mechanics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Aurora_Borealis_Volumetric
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Ancient_Theatre_Generator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Hex_Force_Field_Shield
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Realtime_Glass_Refraction
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: GPGPU_Fluid_Particles
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cyberpunk_Wet_Surface
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cliff_Dwelling_Simulator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Procedural_Fire_Shader
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: SciFi_Hologram_Glitch
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Torii_Gate_Tunnel
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Victorian_Facade_Maker
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Crystal_Chromatic_Dispersion
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 全屏互动点阵
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Viking_Longhouse_Village
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Underwater_Caustics_Simulation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lighthouse_Fresnel_Sim
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Parallax_Occlusion_Ice
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Art_Deco_Spire_Gen
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Black_Hole_Gravitational_Lensing
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Metaball_Lava_Lamp
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Matrix_Digital_Rain
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Volumetric_God_Rays
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Interactive_Glitch_Art
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Roman_Aqueduct_Engineer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Forbidden_City_Axis
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Infinite_Neon_Tunnel
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Audio_Reactive_Plasma_Orb
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Space_Habitat_Architecture
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Geodesic_Sphere_Subdivision
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: VHS_Tape_Simulation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sierpinski_Tetrahedron_Fractal
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mandelbulb_Fractal_Explorer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: NPR_Cel_Shading
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Portal_Wormhole_Effect
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Fibonacci_Sphere_Points
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Hypercube_4D_Rotation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lorenz_Attractor_Chaos
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Interactive_Bezier_Surface
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mobius_Strip_Traveler
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Superformula_3D_Explorer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stereographic_Projection_Map
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Toroidal_Knot_Gallery
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Shape_Interpolation_Morph
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Penrose_Triangle_Align
+  - minimal: ✗ 缺少response
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 3D_Spirograph_Pattern
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Escher_Staircase_Loop
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Klein_Bottle_Topology
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Marching_Cubes_Metaballs
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: Geometric_Unfolding_Animation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Conic_Section_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Spherical_Voronoi_Diagram
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 水果忍者游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: breakout游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Moire_Sphere_Interference
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Affine_Matrix_Visualizer
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Parametric_Helix_Tunnel
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 太空射击游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 音频响应噪声球体
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 低多边形起伏地貌
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 台球小游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Fractal_Tree_L_System
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Platonic_Solids_Duals
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 程序化生长树木
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Minimal_Surface_Gyroid
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 粒子流场可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 反应力测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 分形布朗运动云层
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 信号故障毛刺艺术
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 等高线地形生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Worley细胞生物纹理
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Cute_2d_Roadrunner_game
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 域翘曲油画特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 旋度噪声流体模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 水彩晕染扩散模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态阈值熔岩灯
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态草甸风场
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 水下焦散光纹
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 极光光幕特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动力学排版变形
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 分形闪电分支
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 噪声位移光栅艺术
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 抽象星云气体
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 脊状多重分形沙丘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 沃罗诺伊马赛克动画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 柏林噪声火焰
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 程序化星球表面
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 飞刀旋转挑战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 弹射攻城游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 矢量碎石飞船
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态ASCII景观
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 对战式射击小游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 重力登月模拟器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 霓虹气垫球
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 复古弹珠台
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 导弹拦截指挥官
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 像素分选扫描
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 几何冲刺跑酷
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 物理堆叠塔
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 磁力泡泡龙
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 坦克反弹对决
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 2D漂移赛车
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 钩爪摆荡跑酷
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 360度平滑贪吃蛇
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 重力落球弹珠
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 精密平台跳跃
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 圆形突围
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 相扑碰碰车
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 滚球迷宫
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 钟摆堆积木
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 棍子英雄过河
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 平衡板挑战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 螺旋塔下落
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Snake_Grid_System
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 2D迷你高尔夫
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Tower_Defense_Pathing
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 2D物理足球
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Merge_2048_Algorithm
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Memory_Card_State
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Tetris_Block_Logic
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Minesweeper_Recursive
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Flappy_Gravity_Loop
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Whac_A_Mole_Events
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Match3_Grid_Evaluation
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Galaga_Formation_Patterns
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Breakout_Level_System
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sokoban_Push_Logic
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Simon_Sequence_Memory
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Typing_Defense_Mechanic
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Idle_Resource_Manager
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Maze_Generation_Fog
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: Infinite_Jumper_Scroll
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Playable_Maze
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Bridge_Builder_Precision
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Sliding_Puzzle_Logic
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Bullet_Hell_Pooling
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Slicing_Combo_Mechanic
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Lander_Thrust_Control
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 双人即时太空防御战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 跨窗口迷宫逃脱
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Timing_Hit_Window
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Turn_Based_Grid_Tactics
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 协作式像素画板
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 跨标签页桌上冰球
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 本地联机卡牌对战
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stroop_Effect_Game
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 同步节奏大师
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 实时竞速赛车同步
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 本地多窗口Tron光轮赛车
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 分布式贪吃蛇竞技场
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 双人协作推箱子
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 跨页面的物理积木塔
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 手势互动打靶子
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 双窗口乒乓球拉力赛
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 隐秘特工：状态同步
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 回合制弹道火炮对战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 协作式塔防指挥官
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 盲打格斗游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 多人在线（本地）炸弹人
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 同步老虎机
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 音乐播放器
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 跨标签页拔河比赛
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Virtual_Art_Gallery_Tour
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多端高尔夫
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 海战棋：迷雾同步
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 协作打砖块
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 同步粒子风暴
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Gravity_Flip_Runner
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Scale_Shift_Adventure
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Infinite_Corridor_Loop
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Procedural_Dungeon_Crawl
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Terrain_Hiker_Simulator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Grappling_Hook_Mechanic
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Perspective_Illusion_Puzzle
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rail_Shooter_Camera
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Midnight_Flashlight_Explore
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 双人太空陨石清理
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Audio_Source_Hunter
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Zero_G_Space_Station
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mirror_Maze_Challenge
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Interactive_Model_Showroom
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Underwater_Submarine_Nav
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 360_Panorama_Navigator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Drone_Flight_Training
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Invisible_Bridge_Trial
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Laser_Reflection_Puzzle
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Space_Tunnel_Runner
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 影子追逐战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Floating_Platform_Parkour
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Rollercoaster_POV_Ride
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 红绿灯生存游戏
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Apartment_Renovator_FPS
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Solar_System_Voyager
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Voxel_World_Walker
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 光影提线木偶
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 虚拟守门员挑战
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 时间缝隙扫描仪
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR动态切水果
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR防守护盾
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 色彩追踪魔法棒
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR声波特雷门琴
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 动态激光网格
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR迷雾擦除
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 现实色彩捕手
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 魔镜万花筒
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 视频像素雨
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR空气架子鼓
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR面部表情贴纸
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR手势弹球
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 现实纹理3D旋转
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: A_video_recording_tool_that_gives_you_real_time_prompts
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 隐形迷宫探索者
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 轮廓跑酷
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR趋光性飞虫
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 实时音频频谱瀑布图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 手势充能赛车
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 虚拟特雷门琴
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 可视化参数均衡器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 基于自相关的吉他调音器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 3D空间音频定位演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 像素爆炸特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 加法合成器实验室
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 幽灵频率扫描
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 环形调制变声器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AR气泡浮空
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 隐形墨水显影
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 像素画
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 双通道利萨如相位仪
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 舍帕德音阶错觉生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AI试衣功能开发
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 步进式鼓机音序器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 卡普拉斯-斯特朗拨弦仿真
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 双耳节拍冥想发生器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: DTMF双音多频信号模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 音频节拍检测可视化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 有色噪音发生器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 滤波器响应曲线查看器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多级延迟回声系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多普勒效应物理模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 麦克风实时分贝计
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: ADSR包络可视编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 音频波形缓冲区编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 声波干涉演示器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: FM频率调制合成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 共振峰语音滤波器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Real-time Chroma Key Booth
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 番茄时钟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Motion Detection Security Log
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Face Symmetry Mirror
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 8位复古音效生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Teleprompter Video Recorder
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Webcam Time-Lapse Recorder
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Color Blindness Simulator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Markdown 笔记编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Kaleidoscopic Pattern Generator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Split-Screen Comparator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Slit-Scan Time Displacement
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Motion Ghost Trails Analysis
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 自制调酒器
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Privacy Blur Region Tool
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: ASCII Art Video Stream
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Video Pixel Sort Effect
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Digital Magnifier & Macro Cam
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Live Palette Extractor
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stop-Motion Animation Studio
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Delayed Mirror for Back View
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Video Glitch Signal Simulator
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Luminance Threshold Camera
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Photobooth Grid Shot
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Reaction Time Tester
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Optical Flow Scroller
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Voice-Activated Video Logger
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: Difference Matte Recorder
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: ASCII字符画生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Social Aspect Ratio Cropper
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Glitch故障艺术生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sprite精灵图打包合成器
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 半调网点（Halftone）生成器
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Web端绿幕抠图编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 像素排序（Pixel Sorting）特效
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: Low Poly低多边形转换器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: AIGC重绘蒙版编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 复古抖动（Dithering）工作室
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 透视变换与矫正工具
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 直方图均衡化增强器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: 点彩派艺术渲染器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 隐私马赛克与模糊工具
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: 无缝纹理拼接生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 内容感知缩放（Seam Carving）
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 图像隐写术加密工具
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: 自定义卷积滤镜实验室
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✗ 缺少response
+处理: 一个类似window的web_os
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 拖拽式看板任务管理系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 图像差异对比分析仪
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 双色调（Duotone）滤镜App
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 移轴摄影（Tilt-Shift）生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 九宫格切图生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: CRT显示器模拟器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 批量水印合成工场
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多时区会议协调时间轴
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 个人财务支出分析仪
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: RGB通道分离故障特效
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 智能膳食计划与购物清单
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 色彩迁移与换色器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 可视化习惯养成打卡热力图
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 代码片段管理器
+  - minimal: ✗ 缺少response
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 健身训练容量日志
+  - minimal: ✓ 转换成功
+  - simple: ✗ 缺少response
+  - medium: ✓ 转换成功
+  - detailed: ✗ 缺少response
+处理: 极简大纲笔记 (Outliner)
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 像素画编辑器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 房贷/贷款分期计算器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✗ 缺少response
+  - detailed: ✓ 转换成功
+处理: 旅行AA分账计算器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 间隔重复记忆卡片
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 实时预览简历生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 行李打包清单生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 每日饮水追踪与提醒
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: N-Back认知实验页面
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 情绪日记日历
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 正则表达式测试与库
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 个人人脉CRM系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 本地密码保险箱
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 大学绩点(GPA)计算器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 阅读进度书架
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 艾森豪威尔四象限待办
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Macintosh System 7仿真器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 极简库存管理仪表盘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 复古Windows 95风格桌面
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: JSON结构化查看器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 平铺式窗口管理器（Tiling WM）
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 无限画布空间操作系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 玻璃拟态（Glassmorphism）现代OS
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 赛博朋克黑客终端界面
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 命令面板优先的极简OS
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 桌面小组件（Widget）仪表盘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 智能电视/游戏主机仪表盘
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 分屏多任务协作工作台
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Amiga Workbench仿真
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 新拟态（Neumorphism）软UI系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 废土风格腕带终端（Pip-Boy）
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: BIOS/UEFI设置界面模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: CSS3D空间桌面环境
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: UNIX CDE复古桌面环境
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 基于Web组件的微内核OS架构
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 公共终端Kiosk界面
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: DOS文本模式窗口管理器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Web虚拟键盘与输入法系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 通知中心与Toast消息系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 深度文件资源管理器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 移动端操作系统仿真（iOS风格）
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 多虚拟桌面（Workspace）管理器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 解谜游戏式操作系统
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Go/No-Go抑制控制任务
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 可视化表单构建器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Stroop颜色干扰实验
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Corsi空间广度记忆测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 数字广度测验工具
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Eriksen侧抑制干扰实验
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 视觉搜索范式生成器
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Simon效应反应任务
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Posner空间提示范式
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 词汇判断任务(LDT)
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 变化视盲(Change Blindness)演示
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Sternberg短时记忆扫描
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 时间再生与二分任务
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 精神运动警觉性任务(PVT)
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Mackworth时钟警觉性测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 心理旋转(Mental Rotation)测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Navon复合字母任务
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 内隐学习序列反应时(SRT)
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 信号检测论(SDT)听觉实验
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 注意瞬脱(Attentional Blink)实验
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 停止信号任务(Stop-Signal Task)
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 任务切换(Task Switching)范式
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 威斯康星卡片分类测验(WCST)模拟
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: Fitts定律交互模型测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 连线测验(Trail Making Test)数字化
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+处理: 情绪Stroop偏差测试
+  - minimal: ✓ 转换成功
+  - simple: ✓ 转换成功
+  - medium: ✓ 转换成功
+  - detailed: ✓ 转换成功
+
+================================================================================
+转换完成!
+================================================================================
+总项目数: 648
+总对话数: 2475
+
+各级别统计:
+  minimal: 成功=629, 缺失=19
+  simple: 成功=632, 缺失=16
+  medium: 成功=605, 缺失=43
+  detailed: 成功=609, 缺失=39
+
+输出目录: /Users/shenzhiwei/intern-content/code/WebCoding_synthesis/data/07conversation_format/conversations_20260203_112246
+
+================================================================================
+✓ 任务完成!
+================================================================================
+

@@ -1,0 +1,14 @@
+{
+  "project_name": "One_shot_water_physics",
+  "total_prompts": 1,
+  "timestamp": "20260129_080403",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003902.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/One_shot_water_physics/generated_prompts/generated_prompt_20260129_003902.md",
+      "summary": "实现了一个交互式3D水物理模拟系统，支持动态水面渲染和波浪效果。用户点击可生成受重力和浮力影响的物体，物体落水时会触发真实的涟漪扩散动画，并包含悬浮UI界面。",
+      "prompt_length": 2045,
+      "timestamp": "2026-01-29 08:04:03"
+    }
+  ]
+}

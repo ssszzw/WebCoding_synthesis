@@ -1,0 +1,14 @@
+{
+  "project_name": "音乐播放器",
+  "total_prompts": 1,
+  "timestamp": "20260129_080345",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003745.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/音乐播放器/generated_prompts/generated_prompt_20260129_003745.md",
+      "summary": "实现写实黑胶唱片风格的音乐播放器，具备动态唱臂交互和环形频谱可视化效果。支持本地音频导入、播放控制及音量调节，采用全CSS绘制高拟真图形，无外部依赖。",
+      "prompt_length": 2523,
+      "timestamp": "2026-01-29 08:03:45"
+    }
+  ]
+}

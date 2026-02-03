@@ -1,0 +1,14 @@
+{
+  "project_name": "日签网站",
+  "total_prompts": 1,
+  "timestamp": "20260129_080317",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_003511.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/日签网站/generated_prompts/generated_prompt_20260129_003511.md",
+      "summary": "构建一个极简优雅的日签应用，集成农历日期显示、每日名言展示及动态风景背景。支持一键刷新切换内容与背景音乐播放，通过杂志级排版与平滑动画营造沉浸式阅读体验。",
+      "prompt_length": 1929,
+      "timestamp": "2026-01-29 08:03:17"
+    }
+  ]
+}

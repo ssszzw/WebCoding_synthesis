@@ -1,0 +1,14 @@
+{
+  "project_name": "登录权限验证机制",
+  "total_prompts": 1,
+  "timestamp": "20260129_104118",
+  "summaries": [
+    {
+      "prompt_file": "generated_prompt_20260129_030022.md",
+      "prompt_path": "/Users/shenzhiwei/intern-content/code/WebCoding_synthesis/resourses/full_prompt_images/登录权限验证机制/generated_prompts/generated_prompt_20260129_030022.md",
+      "summary": "构建带身份验证的合同信息抽取系统，包含登录注册与文件上传流程。核心工作台实现表单与原文的联动交互，点击输入框可自动高亮定位文档中的对应内容，支持信息校对与保存。",
+      "prompt_length": 2395,
+      "timestamp": "2026-01-29 10:41:18"
+    }
+  ]
+}
